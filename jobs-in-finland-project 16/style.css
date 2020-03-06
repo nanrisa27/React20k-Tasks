@@ -3,4 +3,16 @@
 }
 footer {
   background-color: blue;
+  color: white;
+  
+}
+.end-links ul{
+  list-style-type: none;
+}
+#scrowBtn{
+  width: 3rem;
+  height: 3rem;
+  padding: 1 auto;
+  position: relative;
+  
 }
