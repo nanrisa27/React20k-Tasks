@@ -12,23 +12,140 @@
   display: grid;
   grid-template-columns:repeat(4, 1fr);
   grid-template-rows:3, 1fr ;
-  grid-gap: 2rem;
+  grid-column: 1rem;
+ 
+  grid-row: 1rem;
   
  
 }
 .academic1{
+  width: 250px;
+  height: 200px;
   background-image: url("https://source.unsplash.com/Vk8MqyygNak");
   background-size: cover;
   color: white;
   font-size: 0.7rem;
   font-weight: 700;
   text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
 }
 .academic2{
-  
+  width: 250px;
+  height: 200px;
+  background-color: rgb(31, 31, 161);
+  color: white;
+  text-align: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border: initial;
+  box-sizing: border-box;
 
 }
+.academic3{
+  width: 250px;
+  height: 200px;
+  background-color: rgb(31, 31, 161);
+  color: white;
+  text-align: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  border: initial;
+  box-sizing: border-box;
 
+}
+.academic5{
+  width: 250px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/X3x-zCLeLJs");
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
+}
+.academic6{
+  width: 250px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/iBjO3rbIHtg");
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
+}
+.academic7{
+  width: 250px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/5zLhWqntDQA");
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
+}
+.academic8{
+  width: 250px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/SfOHL8UVDxk");
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
+}
+.academic9{
+  width: 250px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/T3-Ja07-pvA");
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
+}
+.academic10{
+  width: 250px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/QRZ6NlAgxsg");
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
+}
+.academic11{
+  width: 250px;
+  height: 200px;
+  background-image: url("https://source.unsplash.com/ICE__bo2Vws");
+  background-size: cover;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2rem;
+  border: initial;
+  box-sizing: border-box;
+}
 
 
 
