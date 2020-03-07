@@ -1,6 +1,13 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+#main-header{
+  font-size: 2rem;
+  text-decoration: none;
+}
+#topNav-link{
+  font-size: 1rem;
+}
 .navBar-container{
   background-color: rgb(22, 56, 160);
   width: auto;
@@ -395,6 +402,8 @@
 footer {
   background-color: blue;
   color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   
 }
 .end-links ul{
@@ -402,6 +411,9 @@ footer {
 }
 .contact a{
   color: white;
+  list-style-type: none;
+}
+.contact ul{
   list-style-type: none;
 }
 #scrowBtn{
