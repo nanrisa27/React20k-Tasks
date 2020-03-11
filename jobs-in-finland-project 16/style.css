@@ -20,6 +20,9 @@
   color: white;
   
 }
+i{
+  align-self: center;
+}
 
 
 
@@ -68,6 +71,7 @@
   border-radius: 2rem;
  border-bottom: initial;
  box-sizing: border-box;
+ padding: 0;
 }
 .academics1{
   width: 250px;
@@ -81,6 +85,7 @@
   line-height: 2rem;
   border: initial;
   box-sizing: border-box;
+  
 }
 .academics2{
   width: 250px;
@@ -93,6 +98,8 @@
   font-weight: 700;
   border: initial;
   box-sizing: border-box;
+  border-radius: 0;
+  margin-bottom: 2rem;
 
 }
 .academics3{
@@ -185,6 +192,7 @@
   line-height: 2rem;
   border: initial;
   box-sizing: border-box;
+  margin-top: 2rem;
 }
 
 
@@ -199,6 +207,7 @@
   border-radius: 2rem;
  border-bottom: initial;
  box-sizing: border-box;
+ padding: 0;
 
 
 
@@ -211,6 +220,7 @@
   grid-column: 1rem;
  
   grid-row: 1rem;
+  
   
  
 }
@@ -237,6 +247,7 @@
   font-weight: 700;
   border: initial;
   box-sizing: border-box;
+  margin-bottom: 2rem;
 
 }
 .academic3{
@@ -315,6 +326,7 @@
   line-height: 2rem;
   border: initial;
   box-sizing: border-box;
+  margin-top: 2rem;
 }
 .academic10{
   width: 250px;
