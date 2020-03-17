@@ -114,29 +114,24 @@
           <h3>Contact Me</h3>
           <form action="submit" method="GET">
             <label for="Name">Name</label>
-            <input id="Name" type="text" placeholder="enter your name" />
+            <input id="Name" type="text" placeholder="enter your name" /> <br>
             <label for="Email">Email</label>
-            <input id="Email" type="email" placeholder="enter your email" />
+            <input id="Email" type="email" placeholder="enter your email" /> <br>
             <label for="number">Phone number</label>
             <input
               id="number"
               type="number"
               placeholder="enter your phone number"
-            />
-            <textarea>
-              name="Message"
-              id=""
-              cols="30"
-              rows="4"
-              placeholder="enter your message"
-            </textarea>
+            /> <br>
+            <label for="msgs"></label>
+            <textarea name="msg" id="msgs" cols="30" rows="5" placeholder="enter message">Message</textarea> <br>
             <button id="send-btn" onclick="send">send</button>
           </form>
 
         </div>
-        
+        <button id="scrow" onclick="myFunction()">back to top</button>
       </div>
-      <button id="scrow" onclick="myFunction()">back to top</button>
+      
 
     </footer>
 
