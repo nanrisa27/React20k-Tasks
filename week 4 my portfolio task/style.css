@@ -14,8 +14,16 @@ body {
 .navBar h2{
   font-size: 1.5rem;
 }
+.dropbtn{
+  background-color:#333 ;
+  width: 5rem;
+  height: 2rem;
+  color: white;
+  align-self: center;
+  
+}
 .container{
-  background-image: url("https://source.unsplash.com/C3V88BOoRoM");
+background-image: url("https://source.unsplash.com/C3V88BOoRoM");
 background-repeat: no-repeat;
 background-size: cover;
 
@@ -23,9 +31,12 @@ height: 500px;
 }
 .aboutText{
   color: white;
-  display: flex;
-  justify-content: center;
+  max-width: 400px;
   align-items: center;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  position: relative;
+  margin-top: 3rem;
 
 
 }
@@ -66,13 +77,10 @@ height: 500px;
 .myskills h2{
   margin-top: 2rem;
 }
-.hyperText{
-  box-sizing: border-box;
-  width: 200px;
-  height: 100px;
-}
+
+
 .java{
-  background-color: lightcoral;
+  background-color: lightcyan;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -83,7 +91,7 @@ height: 500px;
 
 }
 .figma{
-  background-color: lightcoral;
+  background-color: lightcyan;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -93,7 +101,7 @@ height: 500px;
 
 }
 .hyperText{
-  background-color: lightcoral;
+  background-color: lightcyan;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -103,7 +111,7 @@ height: 500px;
  
 }
 .cascade{
-  background-color: lightcoral;
+  background-color: lightcyan;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -123,7 +131,7 @@ height: 500px;
 
 }
 .java i{
-  color: lightblue;
+  color: rgb(50, 184, 228);
   border-radius: 50%;
   width: 25px;
   
