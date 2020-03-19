@@ -10,6 +10,9 @@ ul{
   list-style-type: none;
   text-decoration: none;
   
+  color: white;
+  display: inline-block;
+  
 }
 li{
   color: white;
@@ -21,12 +24,21 @@ li{
  
   
 }
-.past{
-  
-}
+
 .Container1{
   background-color: thistle;
 }
 .Container2{
-  background-image: url("https://source.unsplash.com/L0kGo3Dg2gs");
+  background-image: url("https://source.unsplash.com/-QYcSHZu3v8");
+}
+.Contacts{
+  background-color: rgb(59, 56, 56);
+  height: 10rem;
+  padding: 0 auto;
+  margin: 0;
+}
+.Contacts p{
+  color: white;
+  display: flex;
+  
 }
