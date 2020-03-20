@@ -6,16 +6,14 @@ html{
 .Logo{
   background-color: rgb(59, 56, 56);
 }
-ul a{
+a{
   list-style-type: none;
   text-decoration: none;
   color: white;
  text-align: right;
  padding-right: 5px;
  float: right;
- 
-  
-  
+   
 }
 
 
@@ -23,16 +21,33 @@ ul a{
   background-image: url("https://source.unsplash.com/6U-sSfBV-gM");
   background-repeat: no-repeat;
   background-size: cover;
- 
+  
   
 }
+.Past{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.pastPic{
+  margin-right: 2rem;
+  
+}
+.pastText{
+  
+  float: right;
+}
+
 
 .Container1{
   background-color: thistle;
+  display: grid;
 }
 .Container2{
   background-image: url("https://source.unsplash.com/-QYcSHZu3v8");
+  display: grid;
 }
+
+
 .Contacts{
   background-color: rgb(59, 56, 56);
   height: 10rem;
