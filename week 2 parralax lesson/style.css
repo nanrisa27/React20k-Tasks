@@ -6,17 +6,20 @@ html{
 .Logo{
   background-color: rgb(59, 56, 56);
 }
-ul{
+ul a{
   list-style-type: none;
   text-decoration: none;
   
   color: white;
   display: inline-block;
+ text-align: right;
+ padding-right: 5px;
+ 
+  
   
 }
-li{
-  color: white;
-}
+
+
 .Container{
   background-image: url("https://source.unsplash.com/6U-sSfBV-gM");
   background-repeat: no-repeat;
