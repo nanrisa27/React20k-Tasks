@@ -19,8 +19,13 @@
   padding: 0;
   color: white;
  
-  
+}
+.navBar-container ul{
+list-style-type: none;
 
+}
+.navBar-container li{
+  display: inline-block;
 }
 .navBar-container a{
   text-decoration: none;
@@ -31,6 +36,39 @@
 text-decoration: underline;
 
 }
+.submenu{
+  display: none;
+}
+.navBar-container ul li:hover .submenu{
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -15px;
+  background-color: blue;
+  
+  
+}
+.navBar-container ul li:hover .submenu ul{
+  display:inline-block;
+  margin: 10px;
+  line-height: 100px;
+
+}
+.navBar-container ul li:hover .submenu ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+  line-height: 100px;
+
+
+}
+.navBar-container ul li:hover .submenu ul li:last-child{
+  border-bottom: none;
+}
+
 .container-wrap-logo{
   text-decoration: none;
     font-weight: 400;
