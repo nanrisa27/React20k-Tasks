@@ -13,7 +13,39 @@ body {
 }
 .navBar h2{
   font-size: 1.5rem;
+  
 }
+a i{
+  float: right;
+  padding: 10px;
+}
+  
+
+.menu-content{
+overflow:hidden;
+   
+}
+.menu-content ul{
+  padding:20;
+  margin:0;
+  text-align:right;
+  width:300px;
+
+  
+}
+.menu-content li{
+  text-align:center;
+  display: inline-block;
+  margin-left:10px;
+  padding:10px;
+  list-style:none
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
 .dropbtn{
   background-color:#333 ;
   width: 5rem;
@@ -31,12 +63,13 @@ height: 500px;
 }
 .aboutText{
   color: white;
-  max-width: 400px;
+  max-width: 600px;
   align-items: center;
   padding: 30px;
-  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  
   position: relative;
   margin-top: 3rem;
+  margin-left: 7rem;
 
 
 }
@@ -175,4 +208,5 @@ input{
   position: fixed;
   
 }
+
 
