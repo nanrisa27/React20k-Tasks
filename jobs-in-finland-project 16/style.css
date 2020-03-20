@@ -7,18 +7,25 @@
 }
 #topNav-link{
   font-size: 1rem;
+  display: inline;
+  right: 10px;
+  margin-left: 80rem;
+  text-decoration: none;
 }
 .navBar-container{
   background-color: rgb(22, 56, 160);
   width: auto;
-  height: 3rem;
+  height: 5rem;
   padding: 0;
   color: white;
+ 
   
 
 }
 .navBar-container a{
   text-decoration: none;
+  margin: 2rem;
+ 
 }
 .navBar-container a:hover{
 text-decoration: underline;
@@ -36,24 +43,13 @@ text-decoration: underline;
   color: white;
   
 }
-#regions:hover{
-  
-}
 
-
-
-
-
-
-
-
-
-
-
+/* adding parallax effect to the hero div*/
 .hero-text{
   background-image: url("https://source.unsplash.com/hCb3lIB8L8E");
-  
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   color: white;
   font-size: 1rem;
   text-align: center;
@@ -251,8 +247,7 @@ text-decoration: underline;
   display: grid;
   grid-template-columns:repeat(4, 1fr);
   grid-template-rows:3, 1fr ;
-  grid-column: 1rem;
- 
+  grid-column: 1rem; 
   grid-row: 1rem;
   
   
@@ -270,6 +265,9 @@ text-decoration: underline;
   line-height: 2rem;
   border: initial;
   box-sizing: border-box;
+}
+a{
+  margin-top: 10rem;
 }
 .academic2{
   width: 250px;
@@ -449,12 +447,21 @@ text-decoration: underline;
 
 
 .footer-container{
-  background-color: blue;
+  background-color: rgb(13, 13, 184);
   color: white;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-top: 2rem;
   
+}
+h3{
+  font-weight: 50;
+  font-size: 1.1rem;
+  margin-left: 2rem;
+}
+h3 #hero{
+  font-weight: 800;
+  font-style: bold;
 }
 .end-links ul{
   list-style-type: none;
@@ -481,10 +488,20 @@ text-decoration: underline;
   list-style-type: none;
   
 }
-#scrowBtn{
+#scrollUp{
   width: 3rem;
   height: 3rem;
   padding: 1 auto;
-  position: relative;
-  
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  background-color: rgb(216, 209, 209);
+  cursor: pointer;
+  border: none;
+    
+}
+#scrollUp:active{
+  background-color: rgb(187, 203, 187);
 }
