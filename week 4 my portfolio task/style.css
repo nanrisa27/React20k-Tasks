@@ -15,6 +15,12 @@ body {
   font-size: 1.5rem;
   
 }
+.menulist{
+  display: none;
+}
+.menulist ul:hover {
+  display: inline-block;
+}
 a i{
   float: right;
   padding: 10px;
