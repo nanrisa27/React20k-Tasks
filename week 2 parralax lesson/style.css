@@ -1,50 +1,110 @@
-html{
+
+body{
+  margin: 0;
+  padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
 .Logo{
   background-color: rgb(59, 56, 56);
+  
 }
+.Logo h1{
+  color:orange;
+}
+.logo a
 a{
   list-style-type: none;
   text-decoration: none;
   color: white;
  text-align: right;
  padding-right: 5px;
- float: right;
+ 
    
+}
+ul{
+  display: inline-block;
+  justify-content: flex-end;
+  display: flex
+
+}
+li{
+  list-style-type: none;
+  margin: 1rem;
+  text-align: center;
+  float: right;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+ 
+}
+img{
+  float: left;
+  margin-right: 1rem;
+  border-radius: 10px;
 }
 
 
 .Container{
   background-image: url("https://source.unsplash.com/6U-sSfBV-gM");
-  background-repeat: no-repeat;
+  padding: 0 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-repeat: repeat-x;
   background-size: cover;
   
   
 }
-.Past{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-.pastPic{
-  margin-right: 2rem;
-  
-}
 .pastText{
-  
-  float: right;
+  position: relative;
+  max-width: 800px;
+  padding: 50px;
+  background: rgba(225, 225, 225, 0.65);
+  box-shadow: 0 5px 15px;
+  border-radius: 25px;
 }
+
+
 
 
 .Container1{
   background-color: thistle;
-  display: grid;
+  padding: 0 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.futuretext{
+  position: relative;
+  max-width: 800px;
+  padding: 50px;
+  background: rgba(225, 225, 225, 0.65);
+  box-shadow: 0 5px 15px;
+  border-radius: 25px;
 }
 .Container2{
-  background-image: url("https://source.unsplash.com/-QYcSHZu3v8");
-  display: grid;
+  background-image: url("https://source.unsplash.com//vqfiIoRjXWU");
+  background-repeat: repeat-y;
+  background-size: cover;
+  padding: 0 100px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.presenttext{
+  position: relative;
+  max-width: 800px;
+  padding: 50px;
+  background: rgba(225, 225, 225, 0.65);
+  box-shadow: 0 5px 15px;
+  border-radius: 25px;
 }
 
 
@@ -57,5 +117,8 @@ a{
 .Contacts p{
   color: white;
   display: flex;
+  align-items: center;
+  justify-content: center;
+
   
 }
